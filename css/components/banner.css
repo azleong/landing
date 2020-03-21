@@ -1,0 +1,57 @@
+.banner {
+  background-image: url(https://images.unsplash.com/photo-1512750655680-ed16f2be538b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2799&q=80);
+  color: white;
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+
+}
+
+.container {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.cards {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+}
+
+.card {
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid black;
+  box-shadow: 0 0 5px grey;
+  text-align: center;
+  background-color: white;
+  transition: 0.4s;
+}
+
+.card:hover {
+  width: 300px;
+  border-radius: 3px;
+  border: 1px solid black;
+  box-shadow: 0 0 5px grey;
+  text-align: center;
+  background-color: lightgreen
+}
+
+.fas {
+  color: green;
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+.fab {
+  font-size: 50px;
+  color: black;
+  transition: 0.4s;
+  margin: 20px;
+}
+
+.fab:hover {
+  color: forestgreen
+}
